@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MiFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="MI FRAGMENT"
+        android:textSize="20sp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_dato2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tiet_dato2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Dato para OtroFragment" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/b_pasarDato2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pasar Datos a Otro" />
+
+    <TextView
+        android:id="@+id/tv_dato2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="34sp" />
+
+</LinearLayout>
